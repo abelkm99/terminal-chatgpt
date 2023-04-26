@@ -1,0 +1,6 @@
+convos
+.env
+env
+.api-key
+*__pycache__
+.DS_Store
