@@ -46,34 +46,10 @@ Examples:
 #### To ask a question and get only one answer
 ![ask](https://user-images.githubusercontent.com/41730180/234640189-c4be4c19-186f-4089-8915-920087b9715b.gif)
 
-```
-╰─> ask "What is the meaning of life?" 
-As an AI language model, I do not have personal beliefs or opinions, but the meaning of life is a philosophical question that has been debated for centuries. Some people believe that the meaning of life is to seek happiness, others believe it is to fulfill a certain purpose or destiny, while others believe it is to find spiritual enlightenment or connection with a higher power. Ultimately, the meaning of life is subjective and can vary from person to person.
-```
-
 ### To have a chat with Chat GPT
 ![Chat](https://user-images.githubusercontent.com/41730180/234640084-5757a9ef-aa3f-4a7d-8e7d-feeef63238aa.gif)
 
-```
-╰─> chat            
-🤖: Ask your question please
-🐵: who is the oldest man to ever live on earth
-🤖: The oldest man to ever live on earth, according to the Guinness World Records, was Jeanne Calment from France, who lived to be 122 years and 164 days old.
-🐵: what about from the bible
-🤖: The Bible records several individuals who lived to be very old, but their exact ages are not specified. The oldest recorded age in the Bible is that of Methuselah, who lived to be 969 years old (Genesis 5:27). However, it is important to note that the ages recorded in the Bible are often symbolic and not meant to be taken literally.
-🐵: exit
-saving data to ./convos/2023-04-26|17:45:01.941006.json
-```
 note that you have to type exit or quit inorder to safley exit from the console application while still saving the record data.
 
 ### To load a previous conversation from a JSON file
 ![chat-load](https://user-images.githubusercontent.com/41730180/234640031-4a9e2155-0cc6-4e20-bc7e-858bb83a1503.gif)
-
-```
-╰─> chat --load "2023-04-26|17:45:01.941006.json"
-Success Data Loaded Succesfully !!!
-🤖: Ask your question please
-🐵: what were we talking about
-🤖: You asked about the oldest man to ever live on earth, and I provided the answer that the oldest man according to the Guinness World Records was Jeanne Calment from France, who lived to be 122 years and 164 days old.
-🐵: is that only it ?
-```
