@@ -1,4 +1,5 @@
 import argparse
+from datetime import datetime
 import os
 import openai
 from dotenv import load_dotenv
@@ -24,10 +25,12 @@ if args.load:
 print(f"{COLORS.RED}🤖{COLORS.ENDC}: Ask your question please")
 exits = ["quit", "exit"]
 prompt = ""
+json_name = args.load if args.load else "|".join(str(datetime.now()).split()) + '.json'
+
 while(True):
   prompt = input(f"{COLORS.BLUE}🐵{COLORS.ENDC}: ")
   if(prompt.lower() in exits):
-     write_messages_to_json(messages, args.load, True)
+     write_messages_to_json(messages, json_name, True)
      break
   messages.append({
      "role":"user",
@@ -42,6 +45,6 @@ while(True):
   )
   print_response(response,messages)
   # TODO find a better way to save only the new response
-  write_messages_to_json(messages, args.load)
+  write_messages_to_json(messages, json_name=json_name)
 
 

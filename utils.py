@@ -3,6 +3,9 @@ from datetime import datetime
 import json
 import os
 
+PATH = os.path.expanduser("~/Documents")
+os.chdir(path=PATH)
+
 class COLORS:
     RED   = "\033[1;31m"  
     YELLOW = "\033[1;33m"
