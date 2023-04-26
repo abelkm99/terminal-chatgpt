@@ -44,7 +44,7 @@ example "who is the first president of USA").
 Examples:
 
 #### To ask a question and get only one answer
-![ask](https://user-images.githubusercontent.com/41730180/234635259-504f2b78-66e5-49e1-88ce-0c1a31efd501.gif)
+![ask](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2QzZTI3MzI0Yzk3ZDRjZGM2OWJlY2Q4ODY4ZTljMzM4MzQzYjRmZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/m97AvsRoemkj3oQ34b/giphy.gif)
 ```
 ╰─> ask "What is the meaning of life?" 
 As an AI language model, I do not have personal beliefs or opinions, but the meaning of life is a philosophical question that has been debated for centuries. Some people believe that the meaning of life is to seek happiness, others believe it is to fulfill a certain purpose or destiny, while others believe it is to find spiritual enlightenment or connection with a higher power. Ultimately, the meaning of life is subjective and can vary from person to person.
