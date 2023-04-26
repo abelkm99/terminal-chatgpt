@@ -1,10 +1,10 @@
 # chatgpt - Terminal
-A simple python script that will allow users to have a chat with chat gpt through terminal
+A simple python script that will allow users to interact with chat gpt through terminal.
 ## Implementation
 
 There are three Python scripts in this project:
 
-* `ask.py` - prompts the user to input a prompt/question, sends the prompt to OpenAI's GPT-3 model, and prints the response to the console.
+* `ask.py` - prompts the user to input a prompt/question, sends the prompt and prints the response to the console.
 
 * `chat.py` - opens a chat session with the GPT-3 model, saves conversation messages to a JSON file, and prompts the user to enter a new message. Also includes an option to load a previous conversation from a saved JSON file.
 
