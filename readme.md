@@ -44,12 +44,15 @@ example "who is the first president of USA").
 Examples:
 
 #### To ask a question and get only one answer
+![ask](https://user-images.githubusercontent.com/41730180/234635259-504f2b78-66e5-49e1-88ce-0c1a31efd501.gif)
 ```
 ╰─> ask "What is the meaning of life?" 
 As an AI language model, I do not have personal beliefs or opinions, but the meaning of life is a philosophical question that has been debated for centuries. Some people believe that the meaning of life is to seek happiness, others believe it is to fulfill a certain purpose or destiny, while others believe it is to find spiritual enlightenment or connection with a higher power. Ultimately, the meaning of life is subjective and can vary from person to person.
 ```
 
-### To have a chat with Chat GPT
+### To have a chat with Chat GPT!
+[chat](https://user-images.githubusercontent.com/41730180/234635376-8a31ace3-7cef-41a3-a191-29b79563981b.gif)
+
 ```
 ╰─> chat            
 🤖: Ask your question please
@@ -62,7 +65,9 @@ saving data to ./convos/2023-04-26|17:45:01.941006.json
 ```
 note that you have to type exit or quit inorder to safley exit from the console application while still saving the record data.
 
-### To load a previous conversation from a JSON file
+### To load a previous conversation from a JSON file!
+[chat-load](https://user-images.githubusercontent.com/41730180/234635496-22147696-690b-4e47-9a46-d47d87b1be90.gif)
+
 ```
 ╰─> chat --load "2023-04-26|17:45:01.941006.json"
 Success Data Loaded Succesfully !!!
