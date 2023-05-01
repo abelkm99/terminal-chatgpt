@@ -47,8 +47,8 @@ To run the scripts more easily, you can also create aliases for them. Here's how
 * Open your shell configuration file (e.g. `~/.bashrc` or `~/.zshrc`) in a text editor.
 * Add the following lines to the file:
     ```
-    alias chat="python /path/to/chat.py" 
-    alias ask="python /path/to/ask.py"
+    alias chat="python3 /path/to/chat.py" 
+    alias ask="python3 /path/to/ask.py"
     ```
 
 * Replace `/path/to/` with the actual path to your `chat.py` and `ask.py` files.
@@ -76,6 +76,7 @@ note that you have to type exit or quit inorder to safley exit from the console 
 
 support for the windows will be added soon this shall work for linux, macos in general
 
+if the commands doesn't work with python3 try it with just python
 
 
 
