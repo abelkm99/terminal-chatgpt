@@ -2,7 +2,7 @@
 A simple python script that will allow users to interact with chat gpt through terminal.
 ## Implementation
 
-There are three Python scripts in this project:
+There are two Python scripts in this project:
 
 * `ask.py` - prompts the user to input a prompt/question, sends the prompt and prints the response to the console.
 
@@ -10,20 +10,40 @@ There are three Python scripts in this project:
 
 ## Usage
 
-To use this project, you must first set up a python environment and install the required dependencies using the `requirements.txt` file. You must also create an OpenAI API key and store it in a `.env` file located in the project root directory. 
+To use this project, you must first set up a python enviroment that have pip install manager.
 
+Steps
+* clone the repo
+* get into the directory 
+   ```
+   cd terminal-chatgpt 
+   ```
 * To install the required packages run the following command
     ```
-    pip install -r requirements.txt   
+    pip3 install -r requirements.txt   
     ```
-* Then create .env file inside the cloned repository add your api key there.
+* Then create .env file inside the cloned repository.
+    ```
+    touch .env
+    ```
+* Open the .env file add you api key like the given format. do not add any quotes or any thing just the key only
     ```
     OPENAI_API_KEY=<OpenAI API kEY>
     ```
+Done 
+
+now you can run ask.py or chat.py to get your answer
+```
+python3 ask.py your question here
+```
+
+```
+python3 chat.py
+```
 
 To run the scripts more easily, you can also create aliases for them. Here's how:
 
-* Open your terminal and navigate to the project directory.
+* create `~/.zshrc` or `~/.bashrc` file if it doesn't exist
 * Open your shell configuration file (e.g. `~/.bashrc` or `~/.zshrc`) in a text editor.
 * Add the following lines to the file:
     ```
@@ -37,7 +57,7 @@ To run the scripts more easily, you can also create aliases for them. Here's how
 
 Now you can use the `chat` and `ask` aliases to run the scripts more easily. For example:
 * `ask` - prompts the user to enter a prompt/question, and prints the response to the console. (more convinient when you have only one question so you don't have to enter into chat mode. 
-example "who is the first president of USA").
+example "ask who is the first president of USA") more on it the GIF provided below!!
 
 * `chat` - opens a chat session with the chat-gpt, allowing the user to input multiple prompts/messages. The conversation is recorded in a JSON file located in the `convos` directory for future reference. Use the `--load` option to load a previous conversation from a saved JSON file. and when you are finally done use use the keyword exit or quit.
 
@@ -53,3 +73,5 @@ note that you have to type exit or quit inorder to safley exit from the console 
 
 ### To load a previous conversation from a JSON file
 ![chat-load](https://user-images.githubusercontent.com/41730180/234640031-4a9e2155-0cc6-4e20-bc7e-858bb83a1503.gif)
+
+support for the windows will be added soon this shall work for linux, macos in general
