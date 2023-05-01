@@ -75,3 +75,13 @@ note that you have to type exit or quit inorder to safley exit from the console 
 ![chat-load](https://user-images.githubusercontent.com/41730180/234640031-4a9e2155-0cc6-4e20-bc7e-858bb83a1503.gif)
 
 support for the windows will be added soon this shall work for linux, macos in general
+
+
+
+
+
+------------------
+# TODO
+    [] Add Windows support for the setup process
+    [] better way to save the response data.
+    [] create a script that will do all the above processes.
