@@ -1,6 +1,8 @@
 convos
 .env
 env
+.venv
+venv
 .api-key
 *__pycache__
 .DS_Store
