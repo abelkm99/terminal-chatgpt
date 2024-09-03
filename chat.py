@@ -43,7 +43,7 @@ while True:
     print(f"{COLORS.YELLOW}🤖{COLORS.ENDC}:", end=" ", flush=True)
 
     stream_response: openai.Stream = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         temperature=0,
         messages=messages,
         stream=True,  # this time, we set stream=True

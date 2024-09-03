@@ -18,7 +18,7 @@ if len(prompt):
     messages.append({"role": "user", "content": prompt})
 
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo", temperature=0, messages=messages, stream=True
+        model="gpt-4o-mini", temperature=0, messages=messages, stream=True
     )
     print_response(response, messages)
 else:
